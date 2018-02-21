@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93F64E112036E3140076AD34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F64E102036E3140076AD34 /* AppDelegate.m */; };
+		93F64E142036E3140076AD34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F64E132036E3140076AD34 /* ViewController.m */; };
+		93F64E172036E3140076AD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F64E152036E3140076AD34 /* Main.storyboard */; };
+		93F64E192036E3140076AD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F64E182036E3140076AD34 /* Assets.xcassets */; };
+		93F64E1C2036E3140076AD34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F64E1A2036E3140076AD34 /* LaunchScreen.storyboard */; };
+		93F64E1F2036E3140076AD34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F64E1E2036E3140076AD34 /* main.m */; };
+		93F64E272036E32E0076AD34 /* FFICall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93F64E252036E32E0076AD34 /* FFICall.cpp */; };
+		93F64E76203711630076AD34 /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F64E72203711630076AD34 /* libffi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		933E9D30203C5FE9002CCC90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 933E9D29203C5FE9002CCC90 /* libffi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DB13B1661849DF1E0010F42D;
+			remoteInfo = "libffi-iOS";
+		};
+		933E9D32203C5FE9002CCC90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 933E9D29203C5FE9002CCC90 /* libffi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FDB52FC51F6144FA00AA92E6;
+			remoteInfo = "libffi-tvOS";
+		};
+		933E9D34203C5FE9002CCC90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 933E9D29203C5FE9002CCC90 /* libffi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DB13B1911849DF510010F42D;
+			remoteInfo = "libffi-Mac";
+		};
+		933E9D36203C5FE9002CCC90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 933E9D29203C5FE9002CCC90 /* libffi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FDDB2F621F5D846400EF414E;
+			remoteInfo = "libffi-static-Mac";
+		};
+		933E9D38203C5FF2002CCC90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 933E9D29203C5FE9002CCC90 /* libffi.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DB13B1651849DF1E0010F42D;
+			remoteInfo = "libffi-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		933E9D29203C5FE9002CCC90 /* libffi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libffi.xcodeproj; path = ../../libffi/libffi.xcodeproj; sourceTree = "<group>"; };
+		93F64E0C2036E3140076AD34 /* LibffiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibffiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F64E0F2036E3140076AD34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93F64E102036E3140076AD34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93F64E122036E3140076AD34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93F64E132036E3140076AD34 /* ViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = ViewController.m; sourceTree = "<group>"; };
+		93F64E162036E3140076AD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93F64E182036E3140076AD34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93F64E1B2036E3140076AD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93F64E1D2036E3140076AD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F64E1E2036E3140076AD34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93F64E252036E32E0076AD34 /* FFICall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FFICall.cpp; sourceTree = "<group>"; };
+		93F64E262036E32E0076AD34 /* FFICall.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FFICall.hpp; sourceTree = "<group>"; };
+		93F64E2F2036E57C0076AD34 /* libffi.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libffi.7.dylib; sourceTree = "<group>"; };
+		93F64E332036E6650076AD34 /* libffi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libffi.dylib; sourceTree = "<group>"; };
+		93F64E352036E6A50076AD34 /* libffi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libffi.dylib; path = ../../libffi/libffi.dylib; sourceTree = "<group>"; };
+		93F64E392036F59C0076AD34 /* libform.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libform.tbd; path = usr/lib/libform.tbd; sourceTree = SDKROOT; };
+		93F64E72203711630076AD34 /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libffi.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93F64E092036E3140076AD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F64E76203711630076AD34 /* libffi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		933E9D2A203C5FE9002CCC90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				933E9D31203C5FE9002CCC90 /* libffi.a */,
+				933E9D33203C5FE9002CCC90 /* libffi.a */,
+				933E9D35203C5FE9002CCC90 /* ffi.dylib */,
+				933E9D37203C5FE9002CCC90 /* libffi.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93F64E032036E3140076AD34 = {
+			isa = PBXGroup;
+			children = (
+				933E9D29203C5FE9002CCC90 /* libffi.xcodeproj */,
+				93F64E0E2036E3140076AD34 /* LibffiTest */,
+				93F64E0D2036E3140076AD34 /* Products */,
+				93F64E282036E3660076AD34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93F64E0D2036E3140076AD34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93F64E0C2036E3140076AD34 /* LibffiTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93F64E0E2036E3140076AD34 /* LibffiTest */ = {
+			isa = PBXGroup;
+			children = (
+				93F64E0F2036E3140076AD34 /* AppDelegate.h */,
+				93F64E102036E3140076AD34 /* AppDelegate.m */,
+				93F64E122036E3140076AD34 /* ViewController.h */,
+				93F64E132036E3140076AD34 /* ViewController.m */,
+				93F64E152036E3140076AD34 /* Main.storyboard */,
+				93F64E182036E3140076AD34 /* Assets.xcassets */,
+				93F64E1A2036E3140076AD34 /* LaunchScreen.storyboard */,
+				93F64E1D2036E3140076AD34 /* Info.plist */,
+				93F64E1E2036E3140076AD34 /* main.m */,
+				93F64E252036E32E0076AD34 /* FFICall.cpp */,
+				93F64E262036E32E0076AD34 /* FFICall.hpp */,
+			);
+			path = LibffiTest;
+			sourceTree = "<group>";
+		};
+		93F64E282036E3660076AD34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93F64E392036F59C0076AD34 /* libform.tbd */,
+				93F64E2F2036E57C0076AD34 /* libffi.7.dylib */,
+				93F64E352036E6A50076AD34 /* libffi.dylib */,
+				93F64E72203711630076AD34 /* libffi.a */,
+				93F64E332036E6650076AD34 /* libffi.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93F64E0B2036E3140076AD34 /* LibffiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F64E222036E3140076AD34 /* Build configuration list for PBXNativeTarget "LibffiTest" */;
+			buildPhases = (
+				93F64E082036E3140076AD34 /* Sources */,
+				93F64E092036E3140076AD34 /* Frameworks */,
+				93F64E0A2036E3140076AD34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				933E9D39203C5FF2002CCC90 /* PBXTargetDependency */,
+			);
+			name = LibffiTest;
+			productName = LibffiTest;
+			productReference = 93F64E0C2036E3140076AD34 /* LibffiTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93F64E042036E3140076AD34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Teodor Dermendzhiev";
+				TargetAttributes = {
+					93F64E0B2036E3140076AD34 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 93F64E072036E3140076AD34 /* Build configuration list for PBXProject "LibffiTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93F64E032036E3140076AD34;
+			productRefGroup = 93F64E0D2036E3140076AD34 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 933E9D2A203C5FE9002CCC90 /* Products */;
+					ProjectRef = 933E9D29203C5FE9002CCC90 /* libffi.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				93F64E0B2036E3140076AD34 /* LibffiTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		933E9D31203C5FE9002CCC90 /* libffi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libffi.a;
+			remoteRef = 933E9D30203C5FE9002CCC90 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		933E9D33203C5FE9002CCC90 /* libffi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libffi.a;
+			remoteRef = 933E9D32203C5FE9002CCC90 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		933E9D35203C5FE9002CCC90 /* ffi.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = ffi.dylib;
+			remoteRef = 933E9D34203C5FE9002CCC90 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		933E9D37203C5FE9002CCC90 /* libffi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libffi.a;
+			remoteRef = 933E9D36203C5FE9002CCC90 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93F64E0A2036E3140076AD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F64E1C2036E3140076AD34 /* LaunchScreen.storyboard in Resources */,
+				93F64E192036E3140076AD34 /* Assets.xcassets in Resources */,
+				93F64E172036E3140076AD34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93F64E082036E3140076AD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F64E142036E3140076AD34 /* ViewController.m in Sources */,
+				93F64E272036E32E0076AD34 /* FFICall.cpp in Sources */,
+				93F64E1F2036E3140076AD34 /* main.m in Sources */,
+				93F64E112036E3140076AD34 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		933E9D39203C5FF2002CCC90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libffi-iOS";
+			targetProxy = 933E9D38203C5FF2002CCC90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93F64E152036E3140076AD34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93F64E162036E3140076AD34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93F64E1A2036E3140076AD34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93F64E1B2036E3140076AD34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93F64E202036E3140076AD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93F64E212036E3140076AD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93F64E232036E3140076AD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6KAAZFWNY;
+				FRAMEWORK_SEARCH_PATHS = /Users/dermendz/dev/libffi;
+				HEADER_SEARCH_PATHS = (
+					/Users/dermendz/dev/libffi,
+					/Users/dermendz/dev/LibffiMatrix/LibffiTest,
+					/Users/dermendz/dev/LibffiMatrix/LibffiTest/include,
+				);
+				INFOPLIST_FILE = LibffiTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.nsextension.LibffiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93F64E242036E3140076AD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6KAAZFWNY;
+				FRAMEWORK_SEARCH_PATHS = /Users/dermendz/dev/libffi;
+				HEADER_SEARCH_PATHS = (
+					/Users/dermendz/dev/libffi,
+					/Users/dermendz/dev/LibffiMatrix/LibffiTest,
+					/Users/dermendz/dev/LibffiMatrix/LibffiTest/include,
+				);
+				INFOPLIST_FILE = LibffiTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.nsextension.LibffiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93F64E072036E3140076AD34 /* Build configuration list for PBXProject "LibffiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F64E202036E3140076AD34 /* Debug */,
+				93F64E212036E3140076AD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F64E222036E3140076AD34 /* Build configuration list for PBXNativeTarget "LibffiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F64E232036E3140076AD34 /* Debug */,
+				93F64E242036E3140076AD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93F64E042036E3140076AD34 /* Project object */;
+}
